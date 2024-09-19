@@ -11,7 +11,11 @@ import java.util.Scanner;
  */
 public class ICETASK6 {
 
-    
+    public static int countVowels(String sentence) {
+        int count = 0;
+                    
+         return count;  
+    }
    
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
