@@ -13,8 +13,15 @@ public class ICETASK6 {
 
     public static int countVowels(String sentence) {
         int count = 0;
-                    
-         return count;  
+        // Iterate through each character in the string & checking if it is a vowel 
+
+        for (int i = 0; i < sentence.length(); i++) { 
+            char ch = sentence.charAt(i);  
+            if ("aeiou".indexOf(ch) != -1) { 
+                count++;  
+            }
+  
+        } return count;  
     }
    
     public static void main(String[] args) {
