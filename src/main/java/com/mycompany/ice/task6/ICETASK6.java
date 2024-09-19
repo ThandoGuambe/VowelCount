@@ -13,11 +13,12 @@ public class ICETASK6 {
 
     public static int countVowels(String sentence) {
         int count = 0;
+        String vowels = "aeiou";
         // Iterate through each character in the string & checking if it is a vowel 
 
         for (int i = 0; i < sentence.length(); i++) { 
-            char ch = sentence.charAt(i);  
-            if ("aeiou".indexOf(ch) != -1) { 
+            char currentchar = sentence.charAt(i);  
+            if (vowels.indexOf(currentchar) != -1) { 
                 count++;  
             }
   
