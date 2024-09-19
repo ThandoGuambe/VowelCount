@@ -31,5 +31,8 @@ public class ICETASK6 {
         //Prompt user to input 
         System.out.println("Write a sentence");
         sentence = input.next();
+        
+        //Calling the countVowels method
+        System.out.println("Number of vowels: " + countVowels(sentence));
     }
 }
